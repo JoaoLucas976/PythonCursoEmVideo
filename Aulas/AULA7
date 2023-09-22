@@ -1,0 +1,18 @@
+# Operadores Aritméticos
+
++  # Soma
+-  # Subtração
+*  # Multiplicação
+/  # Divisão
+** # Potenciação
+// # Divisão inteira
+%  # Resto da divisão
+== # Igual
+!= # Diferente
+
+Ordem de precedência
+()  >  **  >  * , / , // , %  >  + , -
+
+pow(10,2) # 10**2
+
+print("="*20) # Imprimi "=" 20 vezes na tela

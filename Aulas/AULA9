@@ -1,0 +1,30 @@
+# Strings
+
+frase = "   Curso em Vídeo Python   "
+print(frase)
+
+print(frase[9])                             # Mostra o caractere de indice 9 da string
+
+print(len(frase))                           # Mostra o numero de caracteres da string
+print(frase.count('o'))                     # Conta o numero de letras 'o' da string
+print(frase.count('o',0,13))                # Conta o numero de letras 'o' entre o item 0 e 13 da string
+print(frase.find('deo'))                    # Retorna a posição do termo "deo" na string
+
+print('Curso' in frase)
+print(frase.replace('Python','Android'))    # Substitui "Python" por "Android" na frase impressa
+print(frase.upper())                        # Coloca a frase inteira em maiúsculo
+print(frase.lower())                        # Coloca a frase inteira em minúsculo
+print(frase.capitalize())                   # Coloca a primeira letra da frase em maiúsculo
+
+print(frase.title())                        # Coloca A Frase Capitalizada
+print(frase.strip())                        # Remove os espaços vazios no inicio e no fim da string
+print(frase.rstrip())                       # Remove os espaços vazios no fim da string
+print(frase.lstrip())                       # Remove os espaços vazios no inicio da string
+
+frase_lista = frase.split()                 # Separa a string em uma lista de palavras
+print(frase_lista)                          # Mostra a lista na tela
+print('''
+Frase de multiplas linhas
+Testando a funcionalidade
+''')
+'-'.join(frase_lista)                       # Une a lista em uma string separada por '-'

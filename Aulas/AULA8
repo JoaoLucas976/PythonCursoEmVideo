@@ -1,0 +1,22 @@
+# Módulos
+
+import math
+
+math.ceil()       # Arredonda um valor float para cima
+math.floor()      # Arredonda um valor float para baixo
+math.trunc()      # Arredonda um valor float eliminando a parte fracionária
+math.pow()        # Faz a potenciação de um número
+math.sqrt()       # Tira a raiz quadrada de um numero
+math.factorial()  # Calcula o fatorial de um número
+
+from math import sqrt,ceil # Importa 2 funções do math (ceil() e sqrt())
+
+import random
+random.random()       # Gera um numero entre 0 e 1
+random.randint(a, b)  # Gera um numero inteiro entre a e b (ambos incluidos)
+
+Pypi              # Lista de módulos(bibliotecas python)
+
+import emoji
+
+print(emoji.emojize("Bom dia :sunglasses:",use_aliases=True))

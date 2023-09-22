@@ -1,0 +1,19 @@
+# Condições Aninhadas
+
+if condicao:
+	Faça isso 1
+elif:
+	Faça isso 2
+else:
+	Faça isso 3
+
+nome = input("Qual é seu nome ? ").strip().lower()
+
+if nome == "joão":
+	print("Que nome bonito")
+elif nome in "pedro lucas maria":
+	print("Seu nome é bem popular no Brasil")
+elif nome == "Samantha":
+	print("Nome de pessoa legal")
+else:
+	print("Seu nome é bem normal")

@@ -1,0 +1,6 @@
+# Condicionais
+
+if condicao:
+	Faça isso
+else:
+	Faça aquilo

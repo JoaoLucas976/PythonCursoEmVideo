@@ -1,0 +1,33 @@
+# Tipos primitivos
+
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite mais um número: '))
+s = n1 + n2
+print('A soma vale ',s)
+
+int()   # inteiro
+Ex: 2, 4, 5
+
+float() # real
+Ex: 2.5, 2.4, 6.7
+
+bool()  # booleano/lógico
+Ex: True, False
+
+str()   # string
+Ex: 'Bom dia'
+
+type(s) # retorna o tipo de variável
+
+print('A soma de ', n1, ' e ', n2 ,' é ', s)     # Sintaxe antiga
+print('A soma de {} e {} é {}'.format(n1,n2,s))  # Sintaxe do curso
+print(f'A soma de {n1} e {n2} é {s}')            # Sintaxe mais atual
+
+frase = "alguma frase"
+
+frase.isalpha() # Retorna True se a frase for contituida somente de letras
+frase.isupper() # Retorna True se a frase estiver em caixa alta
+frase.islower() # Retorna True se a frase estiver em caixa baixa
+frase.isalnum() # Retorna True se a frase for contituida de letras e numeros
+frase.isspace() # Retorna True se a frase for contituida de espaços
+frase.istitle() # Retorna True se a frase estiver capitalizada
